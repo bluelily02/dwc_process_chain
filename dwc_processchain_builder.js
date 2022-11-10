@@ -21,7 +21,7 @@
 		</style>
 	`;
 
-	class ColoredBoxBuilderPanel extends HTMLElement {
+	class dwcProcessChainFlowBuilderPanel extends HTMLElement {
 		constructor() {
 			super();
 			this._shadowRoot = this.attachShadow({mode: "open"});
@@ -49,5 +49,5 @@
 		}
 	}
 
-	customElements.define("com-sap-sample-coloredbox-builder", ColoredBoxBuilderPanel);
+	customElements.define("net-dfocus-dwc-processchain-builder", dwcProcessChainFlowBuilderPanel);
 })();

@@ -15,7 +15,7 @@
 		</form>
 	`;
 
-	class ColoredBoxStylingPanel extends HTMLElement {
+	class dwcProcessChainFlowStylingPanel extends HTMLElement {
 		constructor() {
 			super();
 			this._shadowRoot = this.attachShadow({mode: "open"});
@@ -42,5 +42,5 @@
 			return this._shadowRoot.getElementById("styling_color").value;
 		}
 	}
-    customElements.define("com-sap-sample-coloredbox-styling", ColoredBoxStylingPanel);
+    customElements.define("net-dfocus-dwc-processchain-styling", dwcProcessChainFlowStylingPanel);
 })();

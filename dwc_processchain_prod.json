@@ -1,3 +1,4 @@
+
 {
 	"id": "net.dfocus.dwc.processchain",
 	"version": "0.0.1",
@@ -13,22 +14,22 @@
 			"kind": "main",
 			"tag": "net-dfocus-dwc-processchain",
 			"url": "https://secure.bluelily.kr/dwc_pc/dwc_processchain.js",
-			"integrity": "",
-			"ignoreIntegrity": true
+			"integrity": "sha256-8A018613C00E62F671F5EA7980C2E73D71D4A60C67B7CF811A4D682020A22EBB",
+			"ignoreIntegrity": false
 		},
 		{
 			"kind": "styling",
 			"tag": "net-dfocus-dwc-processchain-styling",
 			"url": "https://secure.bluelily.kr/dwc_pc/dwc_processchain_styling.js",
-			"integrity": "",
-			"ignoreIntegrity": true
+			"integrity": "sha256-3EC95EFD0C0D508B91B98A35D60A9280001B6C0B8499218A3ABBE04C241BA964",
+			"ignoreIntegrity": false
 		},
 		{
 			"kind": "builder",
 			"tag": "net-dfocus-dwc-processchain-builder",
 			"url": "https://secure.bluelily.kr/dwc_pc/dwc_processchain_builder.js",
-			"integrity": "",
-			"ignoreIntegrity": true
+			"integrity": "sha256-C2FC6C84C97E449E129132AB656BE5AB139ACDA386446F0ADAD1FA46A66A69D2",
+			"ignoreIntegrity": false
 		}
 	],
 	"properties": {
@@ -80,3 +81,4 @@
 		}
 	}
 }
+		
