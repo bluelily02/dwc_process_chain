@@ -37,6 +37,16 @@
 			"description": "Background color",
 			"default": "dfocus.us10.hcs.cloud.sap"
 		},
+		"dwcspace" : {
+			"type": "string",
+			"description": "DWC Maintenance Space ID",
+			"default": "DWC_MNGT"
+		},
+		"dwctargettable" : {
+			"type": "string",
+			"description": "Background color",
+			"default": "dfocus.us10.hcs.cloud.sap"
+		},
 		"color": {
 			"type": "string",
 			"description": "Background color",

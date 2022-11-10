@@ -3,9 +3,17 @@
 	//:host 스타일은 템플릿 요소에 반영됨 
 	let template = document.createElement("template");
 	template.innerHTML = `
-		<div class="df-process-chain">
-			테스트 Obj
-		</div>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alyssaxuu/flowy/flowy.min.css"> 
+        <script src="https://cdn.jsdelivr.net/gh/alyssaxuu/flowy/flowy.min.js"></script>
+
+		<div class="create-flowy" id="A">A</div>
+        <div class="create-flowy" id="B">B</div>
+        <div class="create-flowy" id="C">C</div>
+        <div class="create-flowy" id="D">D</div>
+        <div class="create-flowy" id="E">E</div>
+        <div class="create-flowy" id="F">F</div>
+        <div id="canvas"></div>
+		
 		<style>
 		:host {			
 			display: block;
@@ -39,10 +47,18 @@
 			if ("opacity" in changedProperties) {
 				this.style["opacity"] = changedProperties["opacity"];
 			}
+
+			dwcApi
 		}
 
-        
+
 	}
 
 	customElements.define("net-dfocus-dwc-processchain", dwcProcessChainFlow);
+
+	function dwcApi(changedProperties, that){
+		var that_ = that;
+
+		
+	}
 })();
