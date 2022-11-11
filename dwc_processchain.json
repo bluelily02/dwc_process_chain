@@ -101,7 +101,8 @@
 					"type": "string",
 					"description": ""
 				}
-			]
+			],
+			"returnType" : "string"
 		}
 	},
 	"events": {

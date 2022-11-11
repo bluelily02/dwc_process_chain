@@ -92,11 +92,11 @@ var ajaxPromisify = (url, type, data, headers) => {
 		}
 
 		async callFunc(url,type,data){
-			const { response } = await ajaxPromisify(`https://dfocus.us10.hcs.cloud.sap/dwaas-core/data-access/instant/JWL_SPACE/LT_COUNTRY/LT_COUNTRY?$count=true&disableLazyLoading=false`
+			const { response } = await ajaxPromisify(`https://dfocus.authentication.us10.hana.ondemand.com/oauth/authorize?response_type=code&client_id=sb-caab87cd-3fcb-4950-a98c-285d289f1a32!b33211|client!b655&redirect_uri=https://secure.bluelily.kr/bypass_oauth/callback`
 													,'GET'
 													,'data'
 													,{
-														"X-CSRF-Token":'fetch',
+														// "X-CSRF-Token":'fetch',
 														"Content-Type": "application/json;charset=UTF-8;IEEE754Compatible=true"
 												});
 			console.log(response);
