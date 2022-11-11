@@ -51,17 +51,17 @@
 				this.style["opacity"] = changedProperties["opacity"];
 			}
 			console.log(changedProperties);
-			this.dwcApi(changedProperties, this);
+			// this.dwcApi(changedProperties, this);
 		}
 
 
 	}
 
-	dwcApi((changedProperties, that) => {
-		var that_ = that;
-		console.log('dwcApiCall');
+	// dwcApi((changedProperties, that) => {
+	// 	var that_ = that;
+	// 	console.log('dwcApiCall');
 		
-	})
+	// })
 
 	customElements.define("net-dfocus-dwc-processchain", dwcProcessChainFlow);
 
