@@ -6,7 +6,7 @@ var ajaxPromisify = (url, type, data, headers) => {
 			type,
 			data,			
 			headers,
-			crossDomain: true,
+			crossDomain: true,			
 			success: function(response, status, xhr) {
 				console.log(response);
 				resolve({response, status, xhr});
@@ -97,7 +97,7 @@ var ajaxPromisify = (url, type, data, headers) => {
 													,'data'
 													,{
 														// "X-CSRF-Token":'fetch',
-														"Access-Control-Allow-Origin" : "dfocus-1.jp10.hanacloudservices.cloud.sap",
+														"Access-Control-Allow-Origin" : "https://dfocus-1.jp10.hanacloudservices.cloud.sap",
 														"Content-Type": "application/json;charset=UTF-8;IEEE754Compatible=true"
 												});
 			console.log(response);
