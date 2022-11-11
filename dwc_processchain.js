@@ -13,7 +13,10 @@
         <div class="create-flowy" id="E">E</div>
         <div class="create-flowy" id="F">F</div>
         <div id="canvas"></div>
-		
+
+		<script>
+		</script>
+
 		<style>
 		:host {			
 			display: block;
@@ -47,18 +50,20 @@
 			if ("opacity" in changedProperties) {
 				this.style["opacity"] = changedProperties["opacity"];
 			}
-
-			dwcApi
+			console.log(changedProperties);
+			this.dwcApi(changedProperties, this);
 		}
 
 
 	}
 
+	dwcApi((changedProperties, that) => {
+		var that_ = that;
+		console.log('dwcApiCall');
+		
+	})
+
 	customElements.define("net-dfocus-dwc-processchain", dwcProcessChainFlow);
 
-	function dwcApi(changedProperties, that){
-		var that_ = that;
-
-		
-	}
+	
 })();
