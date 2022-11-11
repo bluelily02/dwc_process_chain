@@ -97,6 +97,7 @@ var ajaxPromisify = (url, type, data, headers) => {
 													,'data'
 													,{
 														// "X-CSRF-Token":'fetch',
+														"Access-Control-Allow-Origin" : "dfocus-1.jp10.hanacloudservices.cloud.sap",
 														"Content-Type": "application/json;charset=UTF-8;IEEE754Compatible=true"
 												});
 			console.log(response);
