@@ -82,6 +82,26 @@
 			"returnType": "string",
 			"description": "Returns the background color.",
 			"body": "return this.color;"
+		},
+		"callFunc": {
+			"description": "Call function",
+			"parameters": [
+				{
+					"name": "url",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "type",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "data",
+					"type": "string",
+					"description": ""
+				}
+			]
 		}
 	},
 	"events": {
